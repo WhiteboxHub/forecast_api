@@ -1,5 +1,12 @@
 FROM python:3.9-slim as base
 
+# Install system dependencies required for LightGBM
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libgomp1 \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
 # Install dependencies
