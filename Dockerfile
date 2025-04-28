@@ -28,3 +28,4 @@ USER appuser
 
 # Command to run the API
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+

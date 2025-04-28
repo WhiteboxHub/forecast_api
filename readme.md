@@ -11,3 +11,4 @@ docker-compose up
 fast api 
 local host 
 http://localhost:8000/docs
+

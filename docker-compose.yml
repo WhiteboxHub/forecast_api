@@ -20,3 +20,5 @@ services:
       - ./models:/app/models
     depends_on:
       - model_training
+
+      

@@ -77,3 +77,5 @@ class DemandForecastingModel:
         except Exception as e:
             logger.error(f"Error making prediction: {str(e)}")
             raise
+
+            
